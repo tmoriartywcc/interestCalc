@@ -16,7 +16,7 @@ def calc_interest(interest_rate, dollar_amt):
     return new_amt
 
 def outputResult(dollar_amt):
-    print(dollar_amt)
+    print('$', format(dollar_amt, '.2f'), sep='')
 
 interest_rate, dollar_amt = getInput()
 new_amt = calc_interest(interest_rate, dollar_amt)
