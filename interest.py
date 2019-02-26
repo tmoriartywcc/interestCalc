@@ -1,9 +1,10 @@
 def getInput():
     interest_rate = float(input("Enter Interest Rate: "))
-    dollar_amt = float(input("Enter Dollar Amount: "))
 
     while interest_rate < 0:
         interest_rate = float(input("Error please enter positive number.  Enter Interest Rate: "))
+
+    dollar_amt = float(input("Enter Dollar Amount: "))
 
     while dollar_amt < 0:
         dollar_amt = float(input("Error please enter positive number.  Enter Dollar Amount: "))
